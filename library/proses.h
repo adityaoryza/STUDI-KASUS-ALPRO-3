@@ -15,9 +15,9 @@ class Proses {
 					ayam_geprek = false;
 				} else{
 					ambil_data >> bnyk_ayreng;
-					ambil_data >> bnyk_udreng;
-					ambil_data >> bnyk_cureng;
-					ambil_data >> bnyk_aykar;
+					ambil_data >> bnyk_udGorg;
+					ambil_data >> bnyk_cumGor;
+					ambil_data >> bnyk_aymBkr;
 					ambil_data >> jarak;
 				}
 			}
@@ -25,7 +25,7 @@ class Proses {
 		}
 
 		void toFile(){
-			int total = (hrg_ayprek * aymGprk) + (hrg_ayreng * bnyk_ayreng) + (hrg_udreng * bnyk_udreng) + (hrg_cureng * bnyk_cureng) + (hrg_aykar * bnyk_aykar);
+			int total = (hrg_ayprek * aymGprk) + (hrg_ayreng * bnyk_ayreng) + (hrg_udreng * bnyk_udGorg) + (hrg_cureng * bnyk_cumGor) + (hrg_aykar * bnyk_aymBkr);
 			float batas = 25000;
      	 float ongkir;
 			float t2 = float(total);
@@ -63,9 +63,9 @@ class Proses {
      		tulis_data << jarak << endl;//3
 			tulis_data << aymGprk << endl;//4
 			tulis_data << bnyk_ayreng << endl;//5
-			tulis_data << bnyk_udreng << endl;//6
-			tulis_data << bnyk_cureng << endl;//7
-			tulis_data << bnyk_aykar << endl;//8
+			tulis_data << bnyk_udGorg << endl;//6
+			tulis_data << bnyk_cumGor << endl;//7
+			tulis_data << bnyk_aymBkr << endl;//8
 			tulis_data << ongkir << endl;//9
 			tulis_data.close();
 		}
@@ -75,9 +75,9 @@ class Proses {
 		ofstream tulis_data;
     int aymGprk;
     int bnyk_ayreng;
-    int bnyk_udreng;
-    int bnyk_cureng;
-    int bnyk_aykar;
+    int bnyk_udGorg;
+    int bnyk_cumGor;
+    int bnyk_aymBkr;
 	int hrg_ayprek = 21000;
 	int hrg_ayreng = 17000;
     int hrg_udreng = 19000;
