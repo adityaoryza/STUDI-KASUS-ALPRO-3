@@ -30,8 +30,9 @@ class Proses {
      	 float ongkir;
 			float t2 = float(total);
 			float diskon;
+
       if (jarak < 3){
-        	ongkir = 15000;
+        ongkir = 15000;
       	} 
 	  else {
         	ongkir = 25000;

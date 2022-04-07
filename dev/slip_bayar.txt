@@ -1,12 +1,12 @@
 SLIP PEMBAYARAN 
 Yang dibeli : 
-  Ayam Geprek   -> 5
-  Ayam Goreng   -> 6
-  Udang Goreng  -> 
-  Cumi Goreng   -> 
-  Ayam Bakar    -> 
-Jarak Rumah : 4
-Ongkir      : 
-Harga total Rp. 2
-Diskon      Rp. 3
-Harga Bayar Rp. 3
+  Ayam Geprek   -> 2
+  Ayam Goreng   -> 2
+  Udang Goreng  -> 2
+  Cumi Goreng   -> 2
+  Ayam Bakar    -> 2
+  Jarak Rumah : 2
+  Ongkir      : 7000
+  Harga total Rp. 204000
+  Diskon      Rp. 71400
+  Harga Bayar Rp. 139600
