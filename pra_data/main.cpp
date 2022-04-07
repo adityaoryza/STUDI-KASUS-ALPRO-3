@@ -1,3 +1,6 @@
+//* NAMA : ADITYA ORYZA MAHENDRA, SHANTIKA ADILA PUTRI *//
+//* NIM : 2100018401,2100018386 *//
+
 #include <iostream>
 #include <fstream>
 #include "../library/input.h"
