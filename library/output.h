@@ -10,11 +10,11 @@ public:
     cout << "  Udang Goreng  -> " << data_file[6] << endl;
     cout << "  Cumi Goreng   -> " << data_file[7] << endl;
     cout << "  Ayam Bakar    -> " << data_file[8] << endl;
-    cout << "Jarak Rumah : " << data_file[3] << endl;
-    cout << "Ongkir      : " << data_file[9] << endl;
-    cout << "Harga total Rp. " << data_file[0] << endl;
-    cout << "Diskon      Rp. " << data_file[1] << endl;
-    cout << "Harga Bayar Rp. " << data_file[2];
+    cout << "  Jarak Rumah : " << data_file[3] << endl;
+    cout << "  Ongkir      : " << data_file[9] << endl;
+    cout << "  Harga total Rp. " << data_file[0] << endl;
+    cout << "  Diskon      Rp. " << data_file[1] << endl;
+    cout << "  Harga Bayar Rp. " << data_file[2];
   }
 
   void getData() {
@@ -35,11 +35,11 @@ public:
     tulis_data << "  Udang Goreng  -> " << data_file[6] << endl;
     tulis_data << "  Cumi Goreng   -> " << data_file[7] << endl;
     tulis_data << "  Ayam Bakar    -> " << data_file[8] << endl;
-    tulis_data << "Jarak Rumah : " << data_file[3] << endl;
-    tulis_data << "Ongkir      : " << data_file[9] << endl;
-    tulis_data << "Harga total Rp. " << data_file[0] << endl;
-    tulis_data << "Diskon      Rp. " << data_file[1] << endl;
-    tulis_data << "Harga Bayar Rp. " << data_file[2];
+    tulis_data << "  Jarak Rumah : " << data_file[3] << endl;
+    tulis_data << "  Ongkir      : " << data_file[9] << endl;
+    tulis_data << "  Harga total Rp. " << data_file[0] << endl;
+    tulis_data << "  Diskon      Rp. " << data_file[1] << endl;
+    tulis_data << "  Harga Bayar Rp. " << data_file[2];
     tulis_data.close();
   }
 

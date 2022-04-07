@@ -1,6 +1,12 @@
-0
-4201099
-4201008
-0
-2871296
-4194432
+SLIP PEMBAYARAN 
+Yang dibeli : 
+  Ayam Geprek   -> 5
+  Ayam Goreng   -> 6
+  Udang Goreng  -> 
+  Cumi Goreng   -> 
+  Ayam Bakar    -> 
+Jarak Rumah : 4
+Ongkir      : 
+Harga total Rp. 2
+Diskon      Rp. 3
+Harga Bayar Rp. 3
